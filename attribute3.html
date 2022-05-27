@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{list-style: none;}
+    </style>
+</head>
+<body>
+    <h1>여름방학 특강 신청</h1>
+    <form>
+        <fieldset>
+            <legend>수강과목</legend>
+            <ul>
+                <li>
+                    <label for="class">영어회화(초급)
+                    <input type="text" id="class" value="오전 9:00~11:00" readonly></label>
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>신청자</legend>
+            <ul>
+                <li>
+                    <label for="name">이름
+                    <input type="text" id="name" autofocus required></label>
+                </li>
+                <li>
+                    <label for="number">학번
+                    <input type="text" id="number" placeholder="하이픈 없이 입력" maxlength="8" required></label>
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>교재 주문</legend>
+            <ul>
+                <li>
+                    <label for="book">교재
+                    <input type="number" id="book" value="1" min="1" max="3"></label>
+                </li>
+                <li>
+                    <label for="wsheet">워크시트
+                    <input type="number" id="wsheet" value="1" min="1" max="3"></label>
+                </li>
+                <li>
+                    <label for="group">단체주문
+                    <input type="number" id="group" value="10" min="10" max="100" step="10"></label>
+                </li>
+            </ul>
+        </fieldset>
+        <input type="submit" value="제출"> <input type="reset" value="초기화">
+    </form>
+</body>
+</html>

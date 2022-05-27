@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .background{
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            height: 200px;
+            /* margin: 0 auto; */
+
+        }
+        .yellow{
+            width: 100px;
+            height: 100px;
+            background: yellow;
+            border-radius: 50%;
+            transition-duration: 3s;
+            margin-top: 50px;
+        }
+        .background:hover .yellow{
+            transform: scale(2) translateX(300px);
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="yellow"></div>
+    </div>
+</body>
+</html>

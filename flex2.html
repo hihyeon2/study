@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>플렉스 박스</title>
+    <style>
+        #container{
+            width: 500px;
+            height: 300px;
+            margin: 0 auto; /* block 가운데 정렬시 사용 */
+            border: 2px solid black;
+            display: flex; /* 주축의 방향을 바꿔주는 속성 row가 기본으로 설정돼 있음:가로 row-reverse:3번부터 배치 321 */
+            /* flex-direction: column; 세로 */
+            flex-wrap: wrap;
+        }
+        #container div{
+            width: 200px;
+            border: 1px solid black;
+            background: #ccc;
+        }
+        h2{
+            font-size: 20px;
+            font-weight: bold;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="box1"><h2>1</h2></div>
+        <div id="box2"><h2>2</h2></div>
+        <div id="box3"><h2>3</h2></div>
+    </div>
+</body>
+</html>

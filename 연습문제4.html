@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @charset "utf-8";
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            border-bottom: 1px solid black;
+        }
+        div{
+            width: 500px;
+            margin: 0 auto;
+
+        }
+        ul{
+            list-style: none;
+            overflow: hidden;
+
+        }
+        li{
+            float: left;
+            width: 25%;
+
+            text-align: center;
+            padding: 20px;
+
+        }
+        a{
+            margin: 0 auto;
+            text-align: center;
+            text-decoration: none;
+            color: #000;
+            font-size: 20px;
+            font-weight: bold;
+            transform: rotate(-25deg);
+            display: block;
+            transition: 0.5s ease-in;
+            transition-property: transform;
+        }
+        a:hover{
+            color: red;
+            transform: rotate(0deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="#">About</a> </li>
+            <li><a href="#">Lunch</a> </li>
+            <li><a href="#">Dinner</a></li>
+            <li><a href="#">Access</a></li>
+        </ul>
+    </div>
+</body>
+</html>

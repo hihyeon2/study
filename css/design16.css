@@ -1,0 +1,46 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(109, 212, 178);
+}
+.header-container{
+    overflow: hidden;
+    /* height: 150px; */
+    margin-bottom: 20px;
+}
+
+.header-logo{
+    background: url('../img/img3.png') no-repeat;
+    width: 300px;
+    height: 70px;
+    background-size: 300px 70px;
+    margin: 20px;
+    margin-left: 15%;
+}
+main{
+    background: white;
+    width: 70%;
+    margin: 0 auto;
+}
+.name{
+    padding: none;
+}
+.a{
+    padding: 50px;
+}
+
+.a p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+fieldset{
+    padding: 10px;
+}
+.submit{
+    margin-top: 10px;
+}

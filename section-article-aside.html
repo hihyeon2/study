@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>요안도라</title>
+    <style>
+        @charset "utf-8";
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 960px;
+            margin: 0 auto;
+            background-color: #fff;
+            border: 1px solid #e7e7e7;
+        }
+        header{
+            background-image: url('img2/bg2.png');
+            background-repeat: no-repeat;
+            background-position: left top;
+            height: 284px;
+            position: relative;
+        }
+        header h1{
+            color: #ffc;
+            font-size: 3em;
+            text-shadow: 1px 2px 2px #000;
+            position: absolute;
+            right: 20px;
+            bottom: 70px;
+        }
+        header h2{
+            color: #ff0;
+            font-size: 2em;
+            text-shadow: 0px 1px 1px #000;
+            position: absolute;
+            right: 20px;
+            bottom: 30px;
+        }
+        .navi ul{
+            list-style: none;
+            background: black;
+            overflow: hidden;
+        }
+        .navi ul li{
+            float: left;
+            width: 20%;
+
+        }
+        .navi a{
+            display: block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+        }
+        .navi a:hover{
+            color: #ffcc00;
+        }
+        .content{
+            float: left;
+            width: 720px;
+            padding-top: 5px;
+            padding-left: 10px;
+            background-color: #fff;
+            line-height: 1.8;
+        }
+        .sidebar{
+            float: right;
+            width: 200px;
+            height: 550px;
+            padding-top: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: #ddffdd;
+            line-height: 1.6;
+        }
+        .sidebar img{
+            /* text-align: center; */
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Joandora</h1>
+            <h2>가장 제주다운 수산리집</h2>
+        </header>
+        <nav class="navi">
+            <ul>
+                <li><a href="#">이용 안내</a></li>
+                <li><a href="#">객실 소개</a></li>
+                <li><a href="#">예약 방법</a></li>
+                <li><a href="#">예약하기</a></li>
+            </ul>
+        </nav>
+        <article>
+            <section class="content">
+                <h2>요안도라 소개</h2>
+                <h3>요안도라는 게스트 하우스(Guest House) 형식의 농어촌 민박입니다</h3>
+                <p>성산의 날씨는 다음주 내내 높은 구름에 햇살 가득이라고 합니다. </p>
+                <p>오늘은 사진에 보이는 긴 돌담을 따라 들어오는 요안도레 올레 입구에 특곤색의 대문을 달았습니다. </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="banner"><img src="img2/banner2.png" alt="요안도라" width="700" height="233" ></div>
+            </section>
+        </article>
+        <aside class="sidebar">
+            <h3>알립니다.</h3>
+            <p>게스트 하우스 예약은 전화 070-###-#### 로 직접 통화하시는게 가장 정확하고 빠릅니다.
+                인터넷 전화이므로 시외 전화 요금이 부과되지 않습니다. 
+            </p>
+            <img src="img2/2.jpg" alt="">
+            <img src="img2/1.jpg" alt="">
+            <img src="img2/4.jpg" alt="">
+        </aside>
+    </div>
+</body>
+</html>

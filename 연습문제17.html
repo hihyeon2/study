@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @charset "utf-8";
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            border-bottom: 1px solid black;
+        }
+        div{
+            width: 500px;
+            margin: 0 auto
+        }
+        ul{
+            list-style: none;
+            overflow: hidden;
+        }
+        li{
+            float: left;
+            width: 125px;
+            text-align: center;
+            padding: 20px 0px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            margin: 0 auto;
+            font-size: 20px;
+            font-weight: bold;
+            transform: rotate(-30deg);
+            display: block; /*공간을 만들어주기 위함*/
+            transition: 0.5s;
+            transition-property: transform;
+        }
+        a:hover{
+            color: red;
+            transform: rotate(0deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="#">About</a> </li>
+            <li><a href="#">Lunch</a> </li>
+            <li><a href="#">Dinner</a></li>
+            <li><a href="#">Access</a></li>
+        </ul>
+    </div>
+</body>
+</html>

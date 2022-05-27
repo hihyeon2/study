@@ -1,0 +1,113 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('img/nest505/bg.png');
+}
+header{
+    background: black;
+}
+.header-container{
+    margin: 0 auto;
+    width: 100%;
+    padding: 30px 20px 10px 20px ;
+}
+.header-logo{
+    background: url('../img/nest505/logo.png') no-repeat;
+    width: 200px;
+    height: 44px;
+    background-size: 200px 44px;
+}
+nav{
+    background-color: black;
+}
+.nav-container{
+    margin: 0 auto;
+    width: 98%;
+}
+.nav-container ul{
+    overflow: hidden;
+    list-style: none;
+}
+.nav-container li{
+    float: left;
+    width: 20%;
+}
+.nav-container li a{
+    display: block;
+    padding: 10px 0;
+    border-bottom: 8px solid white;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.nav-container li a:hover{
+    border-bottom: 8px solid yellowgreen;
+    color: yellowgreen;
+}
+.main-container{
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: white;
+}
+.main-container ul{
+    list-style: none;
+    height: 400px;
+}
+.main-container ul li{
+    width: 100%;
+}
+.office{
+    float: left;
+    width: 20%;
+    border: 1px solid #dadada;
+    margin: 2%;
+}
+.booth{
+    float: left;
+    width: 20%;
+    border: 1px solid #dadada;
+    margin: 2%;
+}
+.desk-m{
+    float: left;
+    width: 20%;
+    border: 1px solid #dadada;
+    margin: 2%;
+}
+.desk-d{
+    float: left;
+    width: 20%;
+    border: 1px solid #dadada;
+    margin: 2%;
+}
+.main-container img{
+    width: 100%;
+}
+.name{
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+}
+.won{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.content{
+    font-size: 12px;
+    padding: 10px;
+}
+.submit{
+    border: 1px solid #dadada;
+    padding: 5px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin: 5px;
+}

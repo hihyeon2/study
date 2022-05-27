@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @charset "utf-8";
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+            margin: 0 auto;
+        }
+        .header{
+            width: 100%;
+            background-color: aquamarine;
+            color: white;
+            padding: 60px;
+            text-align: center;
+        }
+        .link{
+            width: 100%;
+            background-color: black;
+            color: white;
+            padding: 20px 0;
+        }
+        ul{
+            list-style: none;
+            overflow: hidden; /*플로팅된 요소의 부모요소에 overflow: hidden;을 넣으면 별도의 블럭공간이
+            생성되어 해당 요소의 높이 값이 생성되고 배경색이 적용됩니다. */
+            background-color:gray; /* 네비게이션 메뉴 배경색 적용 */
+        }
+        li{
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .right{
+            float: right;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{
+            color: red;
+        }
+        h1{
+            padding-bottom: 10px;
+        }
+        .left{
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>My Website</h1>
+            <p>https://hibye.com</p>
+        </div>
+        <div class="link">
+            <ul>
+                <li class="left"><a href="https://naver.com" target="_blank">link</a></li>
+                <li class="left"><a href="https://daum.net" target="_blank">link</a></li>
+                <li class="left"><a href="https://google.com" target="_blank">link</a></li>
+                <li class="right"><a href="https://chrome.com" target="_blank">link</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

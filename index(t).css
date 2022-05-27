@@ -1,0 +1,116 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('../img/bg.png');
+}
+/* header */
+header{
+    background: #000000;
+}
+.header-container{
+    margin: 0 auto;
+    /* width:1000px; */
+    padding: 30px 20px 10px 20px;
+}
+.header-logo{
+    background: url('../img/logo.png') no-repeat;
+    width:200px;
+    height: 44px;
+    background-size: 200px 44px;
+}
+/*  nav  */
+nav{
+    background: #000000;
+}
+.nav-container{
+    margin: 0 auto;
+    /* width:1000px; */
+}
+.globalnav{
+    overflow: hidden;
+    list-style: none;
+}
+.globalnav li{
+    float: left;
+    width:20%;
+}
+.globalnav li a{
+    display: block;
+    padding: 10px 0;
+    border-bottom: 8px solid #ffffff;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+}
+.globalnav li a:hover{
+    border-bottom: 8px solid #7bae34;
+    color: #7bae34;
+}
+/* main */
+.main-container{
+    overflow: hidden;
+    margin: 0 auto;
+    /* width:1000px; */
+    background: #ffffff;
+}
+.pricelist h1{
+    padding: 30px 0;
+}
+.pricelist-contents{
+    overflow: hidden;
+    list-style: none;
+}
+.pricelist-contents li{
+    float: left;
+    width:24%;
+    margin-right: 1%;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+}
+.pricelist-contents img{
+    width:100%;
+    border-radius: 10px 10px 0 0;
+}
+.pricelist-contents li h2{
+    font-size: 0.9em;
+    padding: 10px;
+    text-align: center;
+}
+.price{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.info{
+    font-size: 0.9em;
+    padding: 10px;
+}
+.btn{
+    display: block;
+    padding: 10px;
+    background-color: #000000;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 30px;
+    margin: 0 50px 20px 50px;
+}
+.btn:hover{
+    background-color: #3b3b3b;
+}
+/* footer  */
+.footer-container{
+    margin: 0 auto;
+    /* width: 1000px; */
+    background: #000000;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.copyright{
+    color: #ffffff;
+}
